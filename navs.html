@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Article Page</title>
+    <link rel="stylesheet" href="navs.css">
+</head>
+<body>
+    <header class="blog-header">
+        <div class="left-side">
+            <a href="blogs.html">
+                <img class="brand-logo" src="icons/Frame 50.svg">
+            </a>
+        </div>
+        <div class="mid-section">
+            <input class="search-bar" type="text" placeholder=" Search topic">
+            <input type="Submit" class="submit-btn">
+        </div>
+        <div class="right-side">
+            <img class="write-blog js-publish-btns" src="icons/2202272_compose_draw_edit_pencil_write_icon.svg">
+            <img class="notification" src="icons/3643784_bell_notification_notify_reminder_ring_icon.svg">
+            <div><img class="profile" src="thumbnails/96332.jpg"></div>
+        </div>
+    </header>
+    
+    <div id="article-container">
+        <div class="article-header">
+            <h1 id="title" class="article-title"></h1>
+        </div>
+        <div class="author-section">
+            <img id="profile" class="author-pic" src="" alt="Author">
+            <div>
+                <p id="author" class="author-name"></p>
+            </div>
+            <div class="author-info">
+                <p id="datePublished" class="publish-date"></p>
+            </div>
+        </div>
+        <div class="play-section">
+            <div class="likes">
+                <div class="hold">
+                    <img class="clapping" src="icons/9026902_hands_clapping_thin_icon.svg">
+                    <p id="love-text" class="love"></p>
+                </div>
+                <div class="hold">
+                    <img class="chat_icon" src="icons/9055453_bxs_message_rounded_icon.svg">
+                    <p id="msg-icon" class="response"></p>
+                </div>
+            </div>
+            <div class="right_inner">
+                <img class="share" src="icons/9026047_share_network_icon.svg">
+                <img class="save" src="icons/9054919_bx_save_icon.svg">
+                <img class="play" src="icons/1814112_audio_play_player_video_icon.svg">
+                <img class="more" src="icons/211781_more_icon.svg">
+            </div>
+        </div>
+        
+        <div id="articleContent" class="article-text"></div>
+    </div>
+
+    <script type="module" src="navs.js"></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+body {
+    transition: filter 0.3s ease;
+}
+body.blured {
+    filter: blur(8px);
+}
+
+.blog-headers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 0.5px solid rgb(29, 29, 29);
+}
+.left-side {
+    
+    margin-left: 10px;
+    padding: 20px;
+    height: 50px;
+    width: 700px;
+
+}
+.brand-logos {
+    height: 34px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+.right-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+    height: 70px;
+    margin-left: 45px;
+}
+.story {
+    font-size: 16px;
+    cursor: pointer;
+
+
+}
+.member {
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+.write {
+    font-size: 16px;
+    
+    cursor: pointer;
+    margin-left: 20px;
+    
+
+}
+.sign-in {
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+    
+    
+
+}
+.get-started {
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    margin-right: 250px;
+    border-radius: 25px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    border: none;
+
+}
+.get-started:hover{
+    background-color: whitesmoke;
+    color: rgb(29, 29, 29);
+}
+.bottom-word {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    left: 80px;
+    bottom: 150px;
+}
+h1 {
+    font-size: 60px;
+}
+.small {
+    font-size: 30px;
+}
+.start {
+    height: 50px;
+    width: 230px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-size: 22px;
+    margin-top: 15px;
+    border: none;
+
+}
+.start:hover{
+    background-color: whitesmoke;
+    color: rgb(29, 29, 29);
+    border: 1px solid gray;
+}
+.illust-box {
+    position: absolute;
+    bottom: 100px;
+    height: 500px;
+    width: 600px;
+    right: 0;
+}
+.ilustration {
+    height: 100%;
+}
+.signup-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 600px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    backface-visibility: 0.2;
+    opacity: 0;
+    padding: 5px 5px;
+    z-index: 1000;
+    margin-left: 25%;
+    margin-top: 5%;
+    position: fixed;
+    border:  0.5px solid rgb(161, 161, 161);
+    box-shadow: 5px 5px 5px 12px rgba(158, 158, 158, 0.1);
+
+    
+
+}
+
+.name-field {
+    width: 400px;
+    height: 45px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.submit-btn {
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(29, 29, 29);
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: whitesmoke;
+    color: rgb(29, 29, 29);
+    margin-top: 40px;
+    border: 1px solid gray;
+
+}
+.signin-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: auto;
+    width: 500px;
+    background-color: bisque;
+    padding: 5px 5px;
+    margin-left: 30px;
+    
+}
+.form-field{
+    display: flex;
+    flex-direction: column;
+}
+.login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 600px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    backface-visibility: 0.2;
+    opacity: 1;
+    padding: 5px 5px;
+    z-index: 1000;
+    margin-left: 25%;
+    margin-top: 5%;
+    position: fixed;
+    border:  0.5px solid rgb(161, 161, 161);
+    box-shadow: 5px 5px 5px 12px rgba(158, 158, 158, 0.1);
+}
+.log-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: auto;
+    width: 500px;
+    background-color: bisque;
+    padding: 5px 5px;
+    margin-left: 30px;
+}
